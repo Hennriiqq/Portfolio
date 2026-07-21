@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Carlos Henrique — Desenvolvedor Web Júnior</title>
+<meta name="description" content="Portfólio de Henrique, estudante de ADS em desenvolvimento web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="crt" aria-hidden="true"></div>
+
+<nav class="tabs" aria-label="Navegação principal">
+  <div class="tabs-inner">
+    <a href="#sobre" class="tab" data-target="sobre"><span class="dot"></span>about.js</a>
+    <a href="#habilidades" class="tab" data-target="habilidades"><span class="dot"></span>skills.json</a>
+    <a href="#projetos" class="tab" data-target="projetos"><span class="dot"></span>projects/</a>
+    <a href="#contato" class="tab" data-target="contato"><span class="dot"></span>contact.md</a>
+  </div>
+  <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+</nav>
+
+<header class="hero" id="topo">
+  <p class="path">~/henrique/carreira</p>
+  <div class="terminal">
+    <p class="prompt">henrique@fortaleza:~$ <span id="typed"></span><span class="cursor" aria-hidden="true">▌</span></p>
+  </div>
+  <h1>Carlos Henrique <span class="accent"> // dev web </span></h1>
+  <p class="subtitle">Fortaleza, CE — estudante de Análise e Desenvolvimento de Sistemas construindo minha
+    carreira em tecnologia, um commit de cada vez.</p>
+  <div class="cta-row">
+    <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+    <a href="curriculo.pdf" class="btn btn-ghost">Baixar currículo</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="sobre" class="block">
+    <div class="block-header">
+      <span class="filename">about.js</span>
+      <span class="block-meta">9 linhas</span>
+    </div>
+    <div class="code-body">
+      <div class="line"><span class="ln">1</span><span class="code"><span class="kw">const</span> henrique <span class="op">=</span> {</span></div>
+      <div class="line"><span class="ln">2</span><span class="code">  formação: <span class="str">"Análise e Desenvolvimento de Sistemas"</span>,</span></div>
+      <div class="line"><span class="ln">3</span><span class="code">  instituição: <span class="str">"UNINASSAU"</span>,</span></div>
+      <div class="line"><span class="ln">4</span><span class="code">  período: <span class="str">"2025–2027"</span>,</span></div>
+
+      <div class="line"><span class="ln">7</span><span class="code">  objetivo: <span class="str">"Desenvolvedor Web Júnior / Estágio"</span>,</span></div>
+      <div class="line"><span class="ln">8</span><span class="code">  status: <span class="str">"aprendendo todo dia"</span>,</span></div>
+      <div class="line"><span class="ln">9</span><span class="code">};</span></div>
+    </div>
+    <p class="prose">Sempre tive interesse na area da tecnologia, assim que terminei o colegio embarquei mais afundo no meu interesse por
+      tecnologia — automatizando pequenas tarefas e resolvendo problemas do dia a dia. Hoje estou
+      direcionando essa curiosidade pra construir uma carreira em desenvolvimento web.</p>
+  </section>
+
+  <section id="habilidades" class="block">
+    <div class="block-header">
+      <span class="filename">skills.json</span>
+      <span class="block-meta">3 categorias</span>
+    </div>
+    <div class="code-body">
+      <div class="line"><span class="ln">1</span><span class="code">{</span></div>
+      <div class="line"><span class="ln">2</span><span class="code">  <span class="key">"domino"</span>: [<span class="str">"HTML5"</span>, <span class="str">"CSS3"</span>, <span class="str">"JavaScript(básico)"</span>],</span></div>
+      <div class="line"><span class="ln">3</span><span class="code">  <span class="key">"estudando_agora"</span>: [<span class="str">"Node.Js"</span>, <span class="str">"Banco de Dados"</span>],</span></div>
+      <div class="line"><span class="ln">4</span><span class="code">  <span class="key">"habilidades_de_base"</span>: [<span class="str">"organização"</span>, <span class="str">"comunicação"</span>, <span class="str">"atenção a detalhes"</span>]</span></div>
+      <div class="line"><span class="ln">5</span><span class="code">}</span></div>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card"><span class="skill-name">HTML5</span><div class="bar"><div class="fill" style="--pct:100%"></div></div></div>
+      <div class="skill-card"><span class="skill-name">CSS3</span><div class="bar"><div class="fill" style="--pct:95%"></div></div></div>
+      <div class="skill-card"><span class="skill-name">JavaScript</span><div class="bar"><div class="fill" style="--pct:70%"></div></div></div>
+      <div class="skill-card"><span class="skill-name">Node.Js</span><div class="bar"><div class="fill" style="--pct:20%"></div></div></div>
+      <div class="skill-card"><span class="skill-name">Node.Js</span><div class="bar"><div class="fill" style="--pct:20%"></div></div></div>
+      <div class="skill-card"><span class="skill-name">Node.Js</span><div class="bar"><div class="fill" style="--pct:20%"></div></div></div>
+    </div>
+  </section>
+
+  <section id="projetos" class="block">
+    <div class="block-header">
+      <span class="filename">projects/</span>
+      <span class="block-meta">diretório</span>
+    </div>
+    <p class="prose">Projetos práticos que venho construindo pra aplicar o que aprendo. Repositórios no GitHub.</p>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-file">📄 Barbearia.html</div>
+        <h3>Landing page Barbearia</h3>
+        <p>Uma Landing page feita para uma Barbearia, interativa, responsiva com foco na capacitacao de clientes </p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+        <div class="project-links">
+          <a href="#" class="proj-link">GitHub →</a>
+          <a href="https://peru-gerbil-113807.hostingersite.com/" class="proj-link">Ver site →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-file">📄 weather-app.js</div>
+        <h3>App de Clima</h3>
+        <p>Consulta uma API pública de previsão do tempo e exibe temperatura, condição e localização em tempo real.</p>
+        <div class="tags"><span class="tag">JavaScript</span><span class="tag">API</span><span class="tag">Fetch</span></div>
+        <div class="project-links">
+          <a href="#" class="proj-link">GitHub →</a>
+          <a href="" class="proj-link">Ver site →</a>
+        </div>
+      </article>
+
+      <article class="project-card project-card--placeholder">
+        <div class="project-file">📄 próximo-projeto.js</div>
+        <h3>Em construção</h3>
+        <p>Próximo projeto no forno — sugestão: lista de tarefas com localStorage.</p>
+        <div class="tags"><span class="tag tag--muted">em breve</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contato" class="block">
+    <div class="block-header">
+      <span class="filename">contact.md</span>
+      <span class="block-meta">markdown</span>
+    </div>
+    <div class="markdown-preview">
+      <h3># Vamos conversar</h3>
+      <p>Estou aberto a oportunidades de estágio ou vaga júnior em desenvolvimento web.</p>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:leitecarlos53@gmail.com">leitecarlos53@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/carlos-henrique-leite-b5216236a/" target="_blank" rel="noopener">https://www.linkedin.com/in/carlos-henrique-leite-b5216236a/</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/Hennriiqq" target="_blank" rel="noopener">github.com/henrique</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Henrique — construído com HTML, CSS e JS. <span class="footer-accent">// fim do arquivo</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
