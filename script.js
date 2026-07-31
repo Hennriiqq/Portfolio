@@ -1,7 +1,7 @@
 // ---------- Typewriter no terminal do hero ----------
 const linhas = [
   "cat trajetoria.log",
-  "> Auxiliar Administrativo, Unimed Fortaleza",
+  "> Trabalhando Atualmente na Unimed Fortaleza",
   "> Estudante de ADS, UNINASSAU",
   "> Dev Web Júnior... [em progresso]"
 ];

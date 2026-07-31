@@ -59,18 +59,22 @@ a { color: var(--mint); }
 
 /* ---------- Tabs nav ---------- */
 .tabs {
+   display: grid;
+  place-items: center;
+  margin: 0 auto;
+  justify-content: center;
   position: sticky;
   top: 0;
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   padding: 0 var(--space-2);
 }
 
 .tabs-inner {
+  
   display: flex;
   overflow-x: auto;
 }
@@ -341,10 +345,37 @@ main {
   border-radius: 3px;
 }
 
+.tag-index {
+   font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--surface-2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  color: #f1935c;
+}
+
+.tag-js {
+   font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--surface-2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  color: #ece06c;
+}
+
+.tag-css {
+   font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--surface-2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  color: #d194e4;
+}
+
 .tag--muted { color: var(--muted); }
 
 .project-links { display: flex; gap: var(--space-2); }
-.proj-link { font-size: 0.85rem; text-decoration: none; font-weight: 600; }
+.proj-link {margin-top: 20px; font-size: 0.85rem; text-decoration: none; font-weight: 600; }
 .proj-link:hover { text-decoration: underline; }
 
 /* ---------- Contact ---------- */
@@ -388,4 +419,7 @@ main {
   .menu-toggle { display: block; }
   .tab { border-right: none; border-bottom: 1px solid var(--border); width: 100%; }
   .hero { padding: var(--space-4) var(--space-2); }
+  .ln {
+  display: none;
+  }
 }
