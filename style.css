@@ -395,6 +395,10 @@ main {
 .markdown-preview ul { list-style: none; padding: 0; }
 .markdown-preview li { padding: 0.35rem 0; }
 
+.email {
+  margin-bottom: 15px;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   text-align: center;
