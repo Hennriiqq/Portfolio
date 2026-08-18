@@ -8,8 +8,7 @@ Portfólio pessoal desenvolvido para apresentar minha trajetória, meus projetos
 
 Página construída com o conceito de terminal/editor de código, simulando arquivos como `about.js`, `skills.json` e `contact.md` para apresentar as informações de forma criativa e alinhada à área de tecnologia.
 
-<img width="997" height="885" alt="Portfólio Henrique" src="https://github.com/user-attachments/assets/f7664cf8-7f24-4507-9a1a-99aa728ace21" />
-
+<img width="824" height="892" alt="Foto principal portfolio" src="https://github.com/user-attachments/assets/1178478b-70f9-48bf-a913-cf6b39d6996c" />
 
 ##  Tecnologias utilizadas
 
